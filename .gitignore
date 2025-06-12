@@ -1,0 +1,72 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+.env
+.env.*
+
+# macOS system files
+.DS_Store
+
+# Editor settings
+.vscode/
+.idea/
+
+# Python tooling
+*.egg-info/
+.eggs/
+pip-log.txt
+coverage/
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# Log files
+*.log
+
+# Test files
+.tox/
+
+# Node.js (for React frontend)
+node_modules/
+dist/
+build/
+
+# React environment files
+frontend/.env
+frontend/.env.*.local
+
+# Jupyter Notebook (if used for ML)
+.ipynb_checkpoints/
+
+# Local databases
+*.sqlite3
+*.db
+
+# VSCode REST Client temp files
+*.http
+
+# PyCharm project files (just in case)
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Coverage reports
+coverage.xml
+*.cover
+.hypothesis/
+
+# Exported models or weights (optional)
+*.pth
+*.pt
+*.h5
+*.onnx
+
+# Uploaded files
+uploads/
